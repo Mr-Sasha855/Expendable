@@ -1,0 +1,28 @@
+#Calculator
+what = input("What we do? (+,-,*,/,%):")
+a = float(input("Enter the First Number"))
+b = float(input("Enter the Second Number"))
+c = float(input("Enter the Third Number"))
+x = float(input("Enter the Fourth Number"))
+z = float(input("Enter the Fifth number"))
+v = float(input("Specify the sixth number"))
+y = float(input("Enter the seventh number"))
+h = float(input("Enter the eighth number"))
+if what == '+':
+  m = a + b + c + x + z + v + y + h
+  print("Result:" + str(m))
+elif what == '-':
+  m = a - b - c - x - z - v - y - h
+  print("Result:" + str(m))
+elif what == '*':
+  m = a * b * c * x * z * v * y * h
+  print("Result:" + str(m))
+elif what == '/':
+  m = a / b / c / x / z / v / y / h
+  print("Result:" + str(m))
+elif what == '%':
+  m = a % b % c % x % z % v % y 5 h
+  print("Result:" + str(m))
+else:
+    print("There is no such function")
+ input()
